@@ -6,5 +6,5 @@ export {
     SalesSummary,
     Projects,
     Feeds,
-    SocialCards
+    SocialCards,
 };
