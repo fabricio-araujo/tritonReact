@@ -5,14 +5,6 @@ import {
 } from 'reactstrap';
 import PerfectScrollbar from 'react-perfect-scrollbar';
 
-import profilephoto from '../../assets/images/users/1.jpg';
-import bgimage from '../../assets/images/background/user-info.jpg';
-
-const sidebarBackground = {
-  backgroundImage: 'url(' + bgimage + ')',
-  backgroundRepeat: 'no-repeat'
-};
-
 class Sidebar extends React.Component {
   constructor(props) {
     super(props);
@@ -54,11 +46,6 @@ class Sidebar extends React.Component {
       >
         <div className="scroll-sidebar">
           <PerfectScrollbar className="sidebar-nav">
-            <div className="user-profile" style={sidebarBackground}>
-              <div className="profile-img">
-                <img src={profilephoto} alt="user" />
-              </div>
-            </div>
             {/*--------------------------------------------------------------------------------*/}
             {/* Sidebar Menus will go here                                                     */}
             {/*--------------------------------------------------------------------------------*/}

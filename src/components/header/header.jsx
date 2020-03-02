@@ -6,10 +6,6 @@ import {
   Navbar,
   NavbarBrand,
   Collapse,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
   Form,
   Input
 } from 'reactstrap';
@@ -21,7 +17,6 @@ import logodarkicon from '../../assets/images/logo-icon.png';
 import logolighticon from '../../assets/images/logo-light-icon.png';
 import logodarktext from '../../assets/images/logo-text.png';
 import logolighttext from '../../assets/images/logo-light-text.png';
-import profilephoto from '../../assets/images/users/1.jpg';
 
 class Header extends React.Component {
   constructor(props) {
@@ -122,17 +117,41 @@ class Header extends React.Component {
             <Nav className="ml-auto float-right" navbar>
               <NavItem>
                 <a
-                  href="https://wrappixel.com/templates/materialpro-react-admin/"
-                  className="btn btn-danger mr-2"
-                  style={{ marginTop: '20px' }}
+                  href="https://"
+                  className="btn btn-light mr-2"
                 >
-                  Upgrade to Pro
+                  <i className="ti-settings mr-1 ml-1" />
+                </a>
+              </NavItem>
+              
+              <NavItem>
+                <a
+                  href="https://"
+                  className="btn btn-light mr-2"
+                >
+                  <i className="ti-wallet mr-1 ml-1" />
+                </a>
+              </NavItem>
+              <NavItem>
+                <a
+                  href="https://"
+                  className="btn btn-light mr-2"
+                >
+                  <i className="ti-user mr-1 ml-1" />
+                </a>
+              </NavItem>
+              <NavItem>
+                <a
+                  href="https://"
+                  className="btn btn-light mr-2"
+                >
+                  <i className="ti-power-off mr-1 ml-1" />
                 </a>
               </NavItem>
               {/*--------------------------------------------------------------------------------*/}
               {/* Start Profile Dropdown                                                         */}
               {/*--------------------------------------------------------------------------------*/}
-              <UncontrolledDropdown nav inNavbar>
+              {/* <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret className="pro-pic">
                   <img
                     src={profilephoto}
@@ -158,7 +177,7 @@ class Header extends React.Component {
                     <i className="fa fa-power-off mr-1 ml-1" /> Logout
                   </DropdownItem>
                 </DropdownMenu>
-              </UncontrolledDropdown>
+              </UncontrolledDropdown> */}
               {/*--------------------------------------------------------------------------------*/}
               {/* End Profile Dropdown                                                           */}
               {/*--------------------------------------------------------------------------------*/}
