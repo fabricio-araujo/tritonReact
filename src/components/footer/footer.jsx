@@ -4,8 +4,8 @@ class Footer extends React.Component {
   render() {
     return (
       <footer className="footer text-center">
-        All Rights Reserved by Material-Pro admin. Designed and Developed by{' '}
-        <a href="https://wrappixel.com">WrapPixel</a>.
+        Desenvolvido pelo departamento de Tecnologia da Informação{''}
+        <a href="https://www.coobrastur.com"> Coobrastur Viagens Turismo Ltda</a>.
       </footer>
     );
   }
